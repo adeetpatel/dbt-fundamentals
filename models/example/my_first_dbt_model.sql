@@ -18,10 +18,11 @@ with source_data as (
 )
 
 select *
-from source_data
+from source_data 
 
 /*
-    Uncomment the line below to remove records with null `id` values
+    Uncomment the line below to remove records with null `id` values 
+    test commit
 */
 
 -- where id is not null
